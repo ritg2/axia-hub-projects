@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    max-width: 850px;
+    border-radius: 10px;
+
+}
+
+.card{
+    padding: 30px;
+    color: white;
+    width: 100%;
+}
+
+.sedans{
+    background-color: #e28525;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.suvs{
+    background-color: #016972;
+}
+
+.luxury{
+    background-color: #00403f;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1{
+    margin: 20px 0;
+}
+
+p{
+    line-height: 1.6;
+}
+
+button{
+    background-color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: 1px  solid white;
+    cursor: pointer;
+}
+
+.button-sedans{
+    color: #e28525;
+}
+
+.button-suvs{
+    color: #016972;
+}
+
+.button-luxury{
+    color: #00403f;
+}
+
+button:active{
+    background-color: transparent;
+    color: white;
+}
+
+@media(max-width: 768px){
+
+    body{
+        height: 100%;
+        padding: 50px 20px;
+    }
+
+    .container{
+        display: block;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+
+    .sedans{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .luxury{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+}
