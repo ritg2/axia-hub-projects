@@ -1,63 +1,63 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    width: 70%;
-    margin: auto;
+.container {
+  width: 70%;
+  margin: auto;
 }
 
-h1{
-    padding: 30px;
-    width: 100%;
-    color: white;
-    background: maroon;
-    text-align: center;
-    margin-bottom: 10px;
+h1 {
+  padding: 30px;
+  width: 100%;
+  color: white;
+  background: maroon;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .health,
 .game-over,
-.log{
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, .26), -1px -1px 5px rgba(0, 0, 0, .26);
-    margin: 20px;
-    text-align: center;
-    line-height: 2;
+.log {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26), -1px -1px 5px rgba(0, 0, 0, 0.26);
+  margin: 20px;
+  text-align: center;
+  line-height: 2;
 }
 
-.health div{
-    height: 40px;
-    background: green;
-    border: 1px solid black;
+.health div {
+  height: 40px;
+  background: green;
+  border: 1px solid black;
 }
 
 .start {
-    color: white;
-    background: rgb(128, 0, 85);
-    padding: 5px 20px;
-    border-radius: 10px;
-    text-align: center;
-    display: inline-block;
+  color: white;
+  background: rgb(128, 0, 85);
+  padding: 5px 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
 }
 
 .moves {
-    margin: auto;
-    width: 300px;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
+  margin: auto;
+  width: 300px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .moves p {
-    color: white;
-    background: rgb(128, 0, 85);
-    width: 150px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 13px;
+  color: white;
+  background: rgb(128, 0, 85);
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 13px;
 }

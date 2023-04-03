@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #2ddf5c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.start {
+  width: fit-content;
+  color: white;
+  background: #ff1b68;
+  border: none;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+
+.background {
+  background-image: url(./images/freedom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  height: 370px;
+  color: white;
+  padding: 10px;
+}
+
+.card-container {
+  color: #2ddf5c;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.card-container div {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+div .card {
+  margin-top: 20px;
+  background-color: #d5ffdc;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: 320px;
+  color: black;
+}
+
+.free,
+.premium {
+  font-weight: bold;
+  color: #0e4f1f;
+}
+
+.price,
+.price.recomended {
+  font-weight: bold;
+  font-size: 20px;
+  color: gray;
+}
+
+.recommended {
+  background: white;
+  color: #2ddf5c;
+  box-shadow: 2px 2px 1px 1px #0e4f1f;
+  width: 95%;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.price.recomended {
+  color: #0e4f1f;
+}
+
+.card.recomended {
+  background-color: #19b84c;
+  color: white;
+  height: 350px;
+  box-shadow: 2px 2px 2px 2px gray;
+  color: white;
+}
+
+button {
+  width: fit-content;
+  color: white;
+  background: #0e4f1f;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 7px;
+  font-weight: bold;
+}
+
+.cp{
+  margin-top: 20px;
+}
+
+.achievements {
+  text-align: center;
+  color: white;
+  background: #ff1b68;
+  padding: 20px;
+  margin-bottom: 30px;
+
+}
+
+.achievements-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.achievements-container > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  object-fit: contain;
+  flex-wrap: wrap;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background: #ffcede;
+  border: 1px solid black;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.sp{
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .card-container div {
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
